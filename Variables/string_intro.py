@@ -7,16 +7,24 @@ def f_str_print():
     print(to_print)
 
 
-def user_input():
-    # ask a few question
-    # collect text and numbers
-    # respond with a mess that includes the input entries
-    name = input("Name: \n")
+def age_input():
     age = input("Age: \n")
-    height = input("Height (cm): \n")
+    while not age.isnumeric():
+        print("Input type not accepted.\nPlease try again.\n")
+        age = age_input()
+    return age
 
-    to_print = f"{name} is {age} years young, and {height}cm tall."
-    print(to_print)
+
+def user_input():
+    name = input("Name: \n").capitalize()
+    age = age_input()
+
+    class_input = input(f"Which class (e.g. 'str', 'float', 'int', 'complex') would you like to learn about:\n").strip()
+
+    to_print_1 = f"Hello {name} ({age} years old)."
+    to_print_2 = f"Class {class_input} includes methods: \n{dir(eval(class_input))}"
+
+    print(f"{to_print_1}\n{to_print_2}")
 
 
 if __name__=="__main__":
