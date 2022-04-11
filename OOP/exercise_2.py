@@ -1,6 +1,8 @@
 # Create an input for money, type in a number,
 # and make sure the format function transforms it into a money format e.g. 10.22
 
+import anson_custom_test as a
+
 input_array = [1., 5, 10.1234]
 
 
