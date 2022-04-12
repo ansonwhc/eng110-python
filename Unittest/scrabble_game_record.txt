@@ -7,3 +7,19 @@ Score: 9
 Word inputted: DevOps
 Score: 12
 
+Word inputted: Consultant
+Score: 12
+
+Word inputted: Trainee
+Score: 7
+
+Word inputted: Anson
+Score: 5
+
+Word inputted: Anson
+Score: 5
+
+Word inputted: again
+Score: 6
+
+Total Score: 64
