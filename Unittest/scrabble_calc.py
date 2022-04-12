@@ -33,7 +33,6 @@ class Scrabble:
 
     def score_calculator(self, word, show=False):
         word = word.strip()
-        # assert word.isalpha(),
         if not word.isalpha():
             raise AssertionError("Only alphabets are accepted")
 

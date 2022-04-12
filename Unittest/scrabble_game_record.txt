@@ -1,0 +1,9 @@
+Word inputted: Sparta
+Score: 8
+
+Word inputted: Global
+Score: 9
+
+Word inputted: DevOps
+Score: 12
+

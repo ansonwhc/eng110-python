@@ -1,0 +1,8 @@
+Name: Anson
+
+Job: Sparta Global DevOps Consultant Trainee
+
+OS: Windows
+
+Language: Python
+
