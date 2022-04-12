@@ -1,5 +1,5 @@
 import csv
-from csv_example import transform_user_details
+from example import transform_user_details
 
 
 def create_new_user_data_csv(old_user_data_file="user_details.csv",
