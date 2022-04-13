@@ -19,6 +19,7 @@ def scrabble_calculator(word, show=False):
     return word_score
 
 
+# class version
 class Scrabble:
     def __init__(self):
         self.letter_value = {letter: value
@@ -48,5 +49,5 @@ class Scrabble:
 if __name__ == "__main__":
     s = Scrabble()
     class_score = s.score_calculator("sparta", True)
-    class_score = s.score_calculator("123", True)
+    class_score_1 = s.score_calculator("123", True)
     # func_score = scrabble_calculator("sparta", True)

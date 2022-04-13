@@ -1,8 +1,8 @@
 # input scrabble class, record inputted words and scores
 from scrabble_calc import Scrabble
+
+
 # TODO: write the unittest scripts for all the methods tested within this scripts
-
-
 class ScrabbleRecord:
     def __init__(self, scrabble=Scrabble, file_name=None, mode='w'):
         assert mode in ['w', 'a'], AssertionError(f"Only the write mode ('w') or append mode ('a') are supported\n\
@@ -33,7 +33,6 @@ class ScrabbleRecord:
             # TODO: Double-check the Error for wrong extension
 
     def record(self, *words):
-        # does not
         for words_with_spaces in words:
             for word in words_with_spaces.strip().split(' '):
                 word_score = self.calculate(word)
@@ -71,4 +70,3 @@ if __name__ == "__main__":
     scrabble_record.record('DevOps', 'Consultant')
     scrabble_record.record(' Trainee Anson ', 'Anson again')
     scrabble_record.read_record()
-
