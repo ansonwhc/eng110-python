@@ -1,4 +1,5 @@
 import csv
+from pprint import pprint
 
 
 def transform_user_details(csv_file_name):

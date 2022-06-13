@@ -13,7 +13,15 @@ def division(num: float = 1, denom: float = 1) -> float:
     return num / denom
 
 
-if __name__ == "__main__":
-    print(positional_func(2, 2))
-    print(division(2, 3))
+def addition(*nums: float) -> float:
+    return sum(nums)
 
+
+def multiply(*nums: float) -> float:
+    pass
+
+
+if __name__ == "__main__":
+    # print(positional_func(2, 2))
+    # print(division(2, 3))
+    print(addition(1, 2))
